@@ -1,24 +1,27 @@
 <!DOCTYPE html>
 <html>
-<body>
+  <body>
 
-<p>Enter the name of the file here including the prefix (.mp3, etc) . It must be in the same folder as this file</p>
+  <p>Enter the name of the file here. This only works with mp3 files. It must be in the same folder as this index.html</p>
 
-<input type="text" name="textbox">
+  <input type="text" name="textbox">
 
-<button onclick="test()">Test</button>
+  <button onclick="test()">Test</button>
 
-<script>
+  <script>
+    function test() {
 
-function test() {
+    var music = document.getElementsByName('textbox')[0].value
 
-var music = document.getElementsByName('textbox')[0].value
+    console.log(music, ".mp3");
 
-console.log(music);
+    document.write {
+      <p>test</p>
+      <audio id=musix>
+      <source src=music, ".mp3" type="audio/mpeg">
+      </audio>
+    }
+  </script>
 
-<source src=music type="audio/mpeg">
-}
-</script>
-
-</body>
+  </body>
 </html>
