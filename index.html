@@ -4,7 +4,7 @@
 
 <p>Enter the name of the file here including the prefix (.mp3, etc) . It must be in the same folder as this file</p>
 
-<input type="text" name="txtJob">
+<input type="text" name="textbox">
 
 <button onclick="test()">Test</button>
 
@@ -12,10 +12,11 @@
 
 function test() {
 
-var jobValue = document.getElementsByName('txtJob')[0].value
+var music = document.getElementsByName('textbox')[0].value
 
-console.log(jobValue);
+console.log(music);
 
+<source src=music type="audio/mpeg">
 }
 </script>
 
