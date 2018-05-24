@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Enter the name of the file here including the prefix (.mp3, etc) . It must be in the same folder as this file</p>
+
+<input type="text" name="txtJob">
+
+<button onclick="test()">Test</button>
+
+<script>
+
+function test() {
+
+var jobValue = document.getElementsByName('txtJob')[0].value
+
+console.log(jobValue);
+
+}
+</script>
+
+</body>
+</html>
